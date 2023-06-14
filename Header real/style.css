@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,400&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+/* Ajustes Generales  */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    background-color: #ebebeb;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+}
+
+/* Header  */
+
+/* Tipografia */
+header {
+    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    /* background-color: #333366; */
+}
+
+header>.header_h1 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+header>h1 {
+    margin-top: 0;
+    /* background-color: bisque; */
+    font-size: 8rem;
+    text-align: center;
+    /* text-shadow: 2px 2px 2px black; */
+}
+
+.b {
+    color: #cc6666;
+}
+
+.i {
+    color: #333366;
+}
+
+.a {
+    color: #ff6600;
+}
+
+.n {
+    color: #666633;
+}
+
+.in {
+    color: #666633;
+}
+
+.nn {
+    color: #9966cc;
+}
+
+.g {
+    color: #9966cc;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Barra de navegacion */
+nav {
+    background-color: #fff;
+    padding: 1%;
+}
+
+nav {
+    height: 50px;
+    background-color: #11110e1d;
+    display: flex;
+    margin-bottom: 10px;
+}
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+}
+
+nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+} 
+
+/* nav li {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+} */
+
+nav a {
+    display: inline-block;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif; 
+}
